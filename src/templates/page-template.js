@@ -26,6 +26,10 @@ const HTML = styled.div`
     text-decoration: none;
     color: #cc9900;
   }
+  @media (max-width: 767px) {
+    grid-column: 2 / span 3;
+    grid-row: 3 / 3;
+  }
 `;
 
 const Pullquote = styled.div`
@@ -42,6 +46,11 @@ const Pullquote = styled.div`
     line-height: 80%;
     font-weight: 400;
   }
+  @media (max-width: 767px) {
+    grid-column: 2 / span 3;
+    grid-row: 2 / 2;
+    padding-bottom: 1em;
+  }
 `;
 
 const Testimonial = styled.div`
@@ -54,6 +63,10 @@ const Testimonial = styled.div`
     font-style: italic;
     line-height: 80%;
     text-align: right !important;
+  }
+  @media (max-width: 767px) {
+    grid-column: 2 / span 3;
+    grid-row: 4 / 4;
   }
 `;
 
@@ -83,11 +96,13 @@ export default ({ data }) => {
       <h1
         style={{
           display: `grid`,
-          gridColumn: `3 / span 1`,
-          gridRow: `1 / 3`,
+          gridColumn: `2 / span 3`,
+          gridRow: `1 / 2`,
           zIndex: 100,
           alignSelf: `center`,
           color: `#ffffff`,
+          fontSize: `1.5rem`,
+          marginTop: `1em`,
           textShadow: `2px 2px 4px #000`
         }}
       >
