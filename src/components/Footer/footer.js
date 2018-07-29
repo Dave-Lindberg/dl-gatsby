@@ -9,11 +9,11 @@ const FooterContent = styled.div`
   background-color: #eceaea;
   font-size: 80%;
   line-height: 150%;
-  grid-template-columns: 0.5rem 1fr 2fr 0.5rem;
-  grid-gap: 10px;
+  grid-template-columns: minmax(10%, 20%) 1fr 1fr minmax(10%, 20%);
   margin-bottom: 1rem;
   @media (max-width: 767px) {
     grid-template-columns: 0.5rem 1fr 0.5rem;
+    padding: 1em;
   }
   a {
     text-decoration: none;
@@ -51,13 +51,20 @@ const FooterLink = props => (
 
 const Footer = () => (
   <FooterContent>
+    <p
+      style={{
+        gridColumnStart: 2,
+        gridColumnEnd: 4
+      }}
+    >
+      &copy; 2018 Dave Lindberg Marketing & Design, LLC{' '}
+    </p>
     <div
       className="copy-and-brand"
       style={{
         gridColumn: 2
       }}
     >
-      <p>&copy; 2018 Dave Lindberg Marketing & Design, LLC </p>
       <p>
         <FaLinkedin color="#999900" />
         <a href="https://www.linkedin.com/in/davelindberg/" target="blank">

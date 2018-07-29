@@ -5,7 +5,7 @@
   tile: "generate"
   date: "2018-01-15"
   image: "../assets/images/meshpipe.jpg"
-  message: "A successful marketing plan produces the right kind of traffic and a meaningful message."
+  message: "A solid marketing plan delivers a meaningful message to the right people."
   messagex: "The result? A profitable return on investment."
   cta: "Plan for success"
   pullquote: "\"Planning for change has changed how we plan.\""

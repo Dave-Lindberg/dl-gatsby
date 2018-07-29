@@ -6,7 +6,6 @@
   date: "2018-01-15"
   image: "../assets/images/stoplight.jpg"
   message: "The journey from ‘potential prospect’ to ‘engaged customer’"
-  messagex: "involves a unique range of behaviors."
   cta: "Read about the Customer Journey"
   pullquote: "At each stage, the consumer displays behavior that’s specific to their current short-term goals."
 ---
@@ -20,15 +19,25 @@ This is one of those cases where a small business is at an advantage over large,
 At their core, all customer journeys share similar characteristics. Traditionally, the journey is comprised of five stages:
 
 <table>
-<tr>
-	<th>Awareness</th><th>Familiarity</th><th>Consideration</th><th>Purchase</th><th>Loyalty</th>
-</tr>
-<tr>
-	<td>Problem Recognition</td>
-		<td>Information Search</td>
-		<td>Evaluation of Alternatives</td>
-		<td>Purchase Decision</td>
-		<td>Post Purchase Behavior </td>
+  <tr>
+  	<th>Awareness</th>
+    <td>Problem Recognition</td>
+  </tr>
+  <tr>
+  	<th>Familiarity</th>
+  	<td>Information Search</td>
+  </tr>
+  <tr>
+  	<th>Consideration</th>
+    <td>Evaluation of Alternatives</td>
+    </tr>
+    <tr>
+  	<th>Purchase</th>
+    <td>Purchase Decision</td>
+  </tr>
+  <tr>
+    <th>Loyalty</th>
+  	<td>Post Purchase Behavior </td>
 	</tr>
 </table>
 
