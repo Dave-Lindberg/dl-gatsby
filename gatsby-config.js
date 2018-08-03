@@ -29,15 +29,17 @@ module.exports = {
       }
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-        trackingId: `UA-1350255-1`,
-        // Puts tracking script in the head instead of the body
-        head: true
-        // Setting this parameter is optional
-        // anonymize: true,
-        // Setting this parameter is also optional
-        // respectDNT: true
+        id: 'GTM-TPK4DN',
+
+        // Include GTM in development.
+        // Defaults to false meaning GTM will only be loaded in production.
+        includeInDevelopment: false,
+
+        // Specify optional GTM environment details.
+        gtmAuth: 'YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_AUTH_STRING',
+        gtmPreview: 'YOUR_GOOGLE_TAGMANAGER_ENVIROMENT_PREVIEW_NAME'
       }
     },
     {
