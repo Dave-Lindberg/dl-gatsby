@@ -8,6 +8,7 @@ import Square from '../components/Home/square.js';
 import Introtext from '../components/Home/intro-text.js';
 import LinkButton from '../components/link-button.js';
 import ContacText from '../components/Home/contact-text.js';
+import ContactForm from '../components/contact/contact-form.js';
 import { OutboundLink } from 'gatsby-plugin-google-analytics';
 
 const StyledMain = styled.div`
@@ -265,13 +266,27 @@ class Main extends React.Component {
           </OutboundLink>
         </Introtext>
         <ContacText id="contact">
-          <h2>Get in touch</h2>
-          <p>
-            Thanks for your interest in connecting. The best ways to contact us
-            are email (<a href="mailto:dave@davelindberg.com">
-              Dave@DaveLindberg.com
-            </a>) and phone (<a href="tel:603-727-2050">603.727.2050</a>).
-          </p>
+          <div
+            style={{
+              gridRow: 1 / 1,
+              gridColumn: 2
+            }}
+          >
+            <h2>Get in touch</h2>
+            <p>
+              Thanks for your interest in connecting. The three best ways to
+              contact us are email (<a href="mailto:dave@davelindberg.com">
+                Dave@DaveLindberg.com
+              </a>), phone (<a href="tel:603-727-2050">603.727.2050</a>), and
+              this secure form.
+            </p>
+          </div>
+          <ContactForm
+            style={{
+              gridRow: 1 / 1,
+              gridColumn: 2
+            }}
+          />
           <p>Our mailing address is PO Box 26, Lebanon, NH 03766.</p>
         </ContacText>
       </StyledMain>
