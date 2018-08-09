@@ -287,7 +287,17 @@ class Main extends React.Component {
               gridColumn: 2
             }}
           />
-          <p>Our mailing address is PO Box 26, Lebanon, NH 03766.</p>
+          <p>
+            And of course, physical mail is always welcome. Our mailing address
+            is:{' '}
+            <address
+              style={{
+                margin: '1em'
+              }}
+            >
+              PO Box 26<br /> Lebanon, NH 03766
+            </address>
+          </p>
         </ContacText>
       </StyledMain>
     );

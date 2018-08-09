@@ -10,7 +10,7 @@ const FooterContent = styled.div`
   font-size: 80%;
   line-height: 150%;
   grid-template-columns: minmax(10%, 20%) 1fr 1fr minmax(10%, 20%);
-  margin-bottom: 1rem;
+  padding-top: 2em;
   @media (max-width: 767px) {
     grid-template-columns: 0.5rem 1fr 0.5rem;
     padding: 1em;

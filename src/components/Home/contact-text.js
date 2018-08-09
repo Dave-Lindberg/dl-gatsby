@@ -29,6 +29,7 @@ const ContacText = styled.div`
     }
   }
   @media (max-width: 767px) {
+    grid-template-columns: minmax(5%, 10%) minmax(80%, 90%) minmax(5%, 10%);
     grid-column: 1 / 3;
     grid-row: 10 /10;
   }

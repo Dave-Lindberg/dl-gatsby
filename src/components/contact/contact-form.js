@@ -3,9 +3,12 @@ import Link from 'gatsby-link';
 import styled from 'styled-components';
 import LinkButton from '../link-button.js';
 
-const CtFieldset = styled.fieldset`
+const CtForm = styled.form`
   grid-column: 2 / 2;
   grid-row: 2 / 2;
+`;
+
+const CtFieldset = styled.fieldset`
   display: grid;
   grid-template-rows: repeat(9, auto);
   @media (min-width: 768px) {
@@ -128,43 +131,64 @@ const CtSend = LinkButton.extend`
   }
 `;
 const ContactForm = () => (
-  <CtFieldset>
-    <CtInstructions>
-      Required fields are followed by <abbr title="required">*</abbr>
-    </CtInstructions>
-    <CtLabelName for="name">
-      Name <abbr title="required">*</abbr>{' '}
-    </CtLabelName>
-    <CtinputName id="name" name="user_name" placeholder="Your Name" required />
-    <CtLabelEmail for="email">
-      Email <abbr title="required">*</abbr>{' '}
-    </CtLabelEmail>
-    <CtinputEmail
-      id="email"
-      name="user_email"
-      placeholder="you@somewhere.com"
-      required
-      type="email"
-    />
-    <CtLabelPhone for="phone">Phone </CtLabelPhone>
-    <CtinputPhone
-      id="phone"
-      name="user_phone"
-      placeholder="000-000-0000"
-      type="tel"
-    />
-    <CtLabelMessage for="message">
-      Your Message <abbr title="required">*</abbr>{' '}
-    </CtLabelMessage>
-    <CtinputMessage
-      id="message"
-      name="user_message"
-      placeholder="How can we help?"
-      required
-      type="textarea"
-    />
-    <CtSend type="submit">Send it!</CtSend>
-  </CtFieldset>
+  <CtForm
+    name="contact"
+    method="POST"
+    netlify-honeypot="bot-field"
+    data-netlify="true"
+  >
+    <div
+      style={{
+        display: 'none'
+      }}
+    >
+      <label>
+        Don’t fill this out if you're human: <input name="bot-field" />
+      </label>
+    </div>
+    <CtFieldset>
+      <CtInstructions>
+        Required fields are followed by <abbr title="required">*</abbr>
+      </CtInstructions>
+      <CtLabelName for="name">
+        Name <abbr title="required">*</abbr>{' '}
+      </CtLabelName>
+      <CtinputName
+        id="name"
+        name="user_name"
+        placeholder="Your Name"
+        required
+      />
+      <CtLabelEmail for="email">
+        Email <abbr title="required">*</abbr>{' '}
+      </CtLabelEmail>
+      <CtinputEmail
+        id="email"
+        name="user_email"
+        placeholder="you@somewhere.com"
+        required
+        type="email"
+      />
+      <CtLabelPhone for="phone">Phone </CtLabelPhone>
+      <CtinputPhone
+        id="phone"
+        name="user_phone"
+        placeholder="000-000-0000"
+        type="tel"
+      />
+      <CtLabelMessage for="message">
+        Your Message <abbr title="required">*</abbr>{' '}
+      </CtLabelMessage>
+      <CtinputMessage
+        id="message"
+        name="user_message"
+        placeholder="How can we help?"
+        required
+        type="textarea"
+      />
+      <CtSend type="submit">Send it!</CtSend>
+    </CtFieldset>
+  </CtForm>
 );
 
 export default ContactForm;
