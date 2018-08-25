@@ -21,7 +21,10 @@ const TemplateWrapper = ({ children }) => (
       }}
     >
       <Helmet
-        title="Dave Lindberg Marketing &amp; Design &bull; Lebanon, New Hampshire"
+        titleTemplate={
+          '%s | Dave Lindberg Marketing & Design • Lebanon, New Hampshire'
+        }
+        title={'Home'}
         meta={[
           {
             name: 'description',

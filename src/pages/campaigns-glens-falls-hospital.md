@@ -2,7 +2,7 @@
   index: 04
   tilenum: "04"
   title: "Glens Falls Hospital: Managing Change in Community Healthcare"
-  tile: "craft campaigns"
+  tile: "Craft Campaigns"
   date: "2018-01-15"
   image: "../assets/images/mychart.jpg"
   message: "For any media, at every budget:"

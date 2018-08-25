@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'gatsby-link';
+import Helmet from 'react-helmet';
 import styled from 'styled-components';
 import Img from 'gatsby-image';
 
@@ -82,6 +83,7 @@ export default ({ data }) => {
         gridTemplateRows: `auto  auto auto repeat(2, 25vh)`
       }}
     >
+      <Helmet title={data.markdownRemark.frontmatter.tile} />
       <Img
         sizes={data.markdownRemark.frontmatter.image.childImageSharp.sizes}
         style={{

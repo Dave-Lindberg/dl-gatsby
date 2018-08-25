@@ -1,7 +1,7 @@
 ---
   index: 09
   tilenum: "09"
-  tile: "inspire customers"
+  tile: "Inspire Customers"
   title: "How Changing Your Goals Changes Your Customers"
   date: "2018-01-15"
   image: "../assets/images/overland.jpg"

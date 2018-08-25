@@ -2,7 +2,7 @@
   index: 05
   tilenum: "05"
   title: "Ecommerce requires balance. And that’s our strength."
-  tile: "Grow sales"
+  tile: "Grow Sales"
   date: "2018-01-15"
   image: "../assets/images/seedlings.jpg"
   message: "Deep experience in WooCommerce, BigCommerce and Shopify."

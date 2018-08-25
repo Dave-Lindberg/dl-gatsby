@@ -2,7 +2,7 @@
   index: 08
   tilenum: "08"
   title: "Marketing is a One-to-One Experience."
-  tile: "engage prospects"
+  tile: "Engage Prospects"
   date: "2018-01-15"
   image: "../assets/images/firepit.jpg"
   message: "\"How does this fit within my life?\""

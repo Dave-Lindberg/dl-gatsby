@@ -1,7 +1,7 @@
 ---
   index: 10
   tilenum: "10"
-  tile: "Move people"
+  tile: "Move People"
   title: "Map Your Customers’ Journey and Discover a Way Forward"
   date: "2018-01-15"
   image: "../assets/images/stoplight.jpg"

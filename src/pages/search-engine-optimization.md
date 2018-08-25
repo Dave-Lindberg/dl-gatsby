@@ -1,7 +1,7 @@
 ---
   index: 11
   tilenum: "11"
-  tile: "attract visitors"
+  tile: "Attract Visitors"
   title: "SEO for Everybody (and Vice Versa)"
   date: "2018-01-16"
   image: "../assets/images/fishing-net.jpg"
