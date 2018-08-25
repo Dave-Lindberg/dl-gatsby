@@ -2,7 +2,7 @@
   index: 08
   tilenum: "08"
   title: "Marketing is a One-to-One Experience."
-  tile: "engage"
+  tile: "engage prospects"
   date: "2018-01-15"
   image: "../assets/images/firepit.jpg"
   message: "\"How does this fit within my life?\""
@@ -23,6 +23,6 @@ We developed an _engagement process_, which extends from point-of purchase to so
 
 From brand positioning to product marketing to customer service, when you treat people as unique individuals, they respond with enthusiasm, engagement, and loyalty.
 
-And when you work with a marketing partner who understands this basic fact, you’re likely to find the process is as rewarding as the result. Call Dave today at 603.727.2050.
+And when you work with a marketing partner who understands this basic fact, you’re likely to find the process is as rewarding as the result. [Contact Dave](https://davelindberg.com/#contact) today or call 603.727.2050.
 
 </div>

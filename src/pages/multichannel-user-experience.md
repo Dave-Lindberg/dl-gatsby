@@ -2,7 +2,7 @@
   index: 07
   tilenum: "07"
   title: "Gain a Better View of Your Users."
-  tile: "experiences"
+  tile: "See Trends"
   date: "2018-01-15"
   image: "../assets/images/binoculars.jpg"
   message: "Every user’s experience contributes directly to your bottom line. "
@@ -19,6 +19,6 @@ As technology shifts, we develop new models of understanding user behavior. Pers
 
 Once we start looking at 'traditional' media through the lens of modern UX, we find a deeper understanding of users' needs. Integrating data across multiple channels sets the stage for greater insights, leading to more meaningful and actionable management.
 
-With a broad-based skill set ranging from book and catalog design to cross-channel data integration, we can help you realize gains in from a multi-media strategy. <a href="mailto:dave@davelindberg.com">Reach out</a> today to talk about how.
+With a broad-based skill set ranging from book and catalog design to cross-channel data integration, we can help you realize gains in from a multi-media strategy. [Contact Dave](https://davelindberg.com/#contact) today to talk about how.
 
 </div>

@@ -2,7 +2,7 @@
   index: 02
   tilenum: "02"
   title: "Creating Happy Customers? You Can Plan on It."
-  tile: "generate"
+  tile: "Improve ROI"
   date: "2018-01-15"
   image: "../assets/images/meshpipe.jpg"
   message: "A solid marketing plan delivers a meaningful message to the right people."
@@ -24,6 +24,6 @@ Our work is inspired by the proven framework of the Customer Journey, a consumer
 
 We work with businesses and entrepreneurs from around the Vermont/New Hampshire region—and across the nation—helping our clients integrate their marketing efforts, improve engagement, and realize better results.
 
-Learn more about how we can help. Call Dave direct at 603.727.2050 and let’s start a conversation.
+Learn more about how we can help. [Get in touch](https://davelindberg.com/#contact) or call Dave direct at 603.727.2050 and let’s start a conversation.
 
 </div>

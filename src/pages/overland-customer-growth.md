@@ -1,7 +1,7 @@
 ---
   index: 09
   tilenum: "09"
-  tile: "customers"
+  tile: "inspire customers"
   title: "How Changing Your Goals Changes Your Customers"
   date: "2018-01-15"
   image: "../assets/images/overland.jpg"
@@ -22,6 +22,6 @@ The results? Within three seasons, online revenue _tripled_, as outerwear sales 
 
 We had to change our expectations of how our customers might respond. Only then could we work to help make their new behavior a reality.
 
-Imagine what a fresh perspective can bring to your marketing efforts. Reach out to Dave and schedule a discussion. It may change the way you think about your business.
+Imagine what a fresh perspective can bring to your marketing efforts. [Reach out to Dave](https://davelindberg.com/#contact) and schedule a discussion. It may change the way you think about your business.
 
 </div>

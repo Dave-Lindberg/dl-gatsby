@@ -1,7 +1,7 @@
 ---
   index: 12
   tilenum: "12"
-  tile: "people"
+  tile: "Team Up"
   title: "Teamwork Makes the Dream Work."
   date: "2018-01-16"
   image: "../assets/images/rally.png"
@@ -20,4 +20,4 @@ We're proud to work with a stellar group of creative pros — writers, photograp
 
 Our virtual teams get to do their best work with steady, open communication, using accessible cloud-based project management.
 
-Feel free to check out our [LinkedIn profile](https://www.linkedin.com/in/davelindberg/), where you can view some of the professionals who contribute to our virtual teams.
+Feel free to check out our [LinkedIn profile](https://www.linkedin.com/in/davelindberg/), where you can view some of the professionals who contribute to our virtual teams. Or simply [contact Dave](https://davelindberg.com/#contact) today and find out how we can help on projects of any size.

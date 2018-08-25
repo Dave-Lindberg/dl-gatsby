@@ -2,7 +2,7 @@
   index: 01
   tilenum: "01"
   title: "Understanding the Market, Hand-Crafting the Brand."
-  tile: "brands"
+  tile: "Build the Brand"
   date: "2018-01-15"
   image: "../assets/images/espressoluv.jpg"
   message: "They frame the conversation, adding context and meaning."
@@ -38,7 +38,7 @@ We worked closely with Bill to develop logo designs and brand usage guidelines. 
 
 Our experience solving complex problems across multiple interrelated components played a huge role in launching this brand. If you’re looking at a multifaceted marketing opportunity, find out how we can help smooth the process and deliver solutions that work for you.
 
-Call Dave at 603 727-2050. We’ll be happy to get together and discuss how to make good things happen on time and on budget.
+Call Dave at 603 727-2050 or [send a note](https://davelindberg.com/#contact). We’ll be happy to get together and discuss how to make good things happen on time and on budget.
 
 <p>And yes, the coffee’s on us.</p>
 <p>&nbsp;</p>

@@ -2,7 +2,7 @@
   index: 03
   tilenum: "03"
   title: "Tim Clue, Motivational Speaker, Takes the Lead"
-  tile: "leads"
+  tile: "Generate Leads"
   image: "../assets/images/timclue.jpg"
   message: "Connecting with prospects at the right point in their purchase process."
   messagex: "Awareness leads to interest; interest leads to action."
@@ -20,6 +20,6 @@ With a range of highly targeted ads matched to compelling landing pages, Tim’s
 
 Businesses that rely on converting leads to customers need a diverse range of strategies that fit within the brand, _and_ are relevant to their prospects. It’s our ability to assess, develop and effectively manage lead-gen programs that keeps our clients busy and happy.
 
-Open the door to closing more deals. Call or <a href="mailto:dave@davelindberg.com">email Dave</a> today, and explore how properly targeted content can work for you.
+Open the door to closing more deals. Call 603.727.2050 or [contact Dave](https://davelindberg.com/#contact) today, and explore how properly targeted content can work for you.
 
 </div>
