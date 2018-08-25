@@ -97,8 +97,8 @@ const Footer = () => (
       }}
     >
       All brands and images are property of their respective owners. Additional
-      photos courtesy Hermes Rivera, Nick Seliverstov and Mario Purisic via
-      Unsplash.
+      photos courtesy Hermes Rivera, Nick Seliverstov, Fredrik Öhlander and
+      Mario Purisic via Unsplash.
     </p>
   </FooterContent>
 );

@@ -4,7 +4,7 @@
   tile: "attract visitors"
   title: "SEO for Everybody (and Vice Versa)"
   date: "2018-01-16"
-  image: "../assets/images/jimbo.jpg"
+  image: "../assets/images/fishing-net.jpg"
   message: "SEO is everyone's job."
   cta: "Modern SEO"
   pullquote: “Starting the process now can produce verifiable results quickly.”
