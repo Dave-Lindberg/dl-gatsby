@@ -128,7 +128,6 @@ export const query = graphql`
       frontmatter {
         title
         tile
-        video
         image {
           childImageSharp {
             sizes(maxWidth: 1240) {
