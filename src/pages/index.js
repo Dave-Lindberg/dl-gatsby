@@ -173,7 +173,7 @@ class Main extends React.Component {
     const { data: { allMarkdownRemark: { edges } } } = this.props;
     const Squares = this.props.data.allMarkdownRemark.edges.map(edge => (
       <Square
-        key={edge.node.frontmatter.tilenum.toString()}
+        key={edge.node.frontmatter.tilenum}
         id={edge.node.frontmatter.tilenum}
         tilenum={edge.node.frontmatter.tilenum}
         title={edge.node.frontmatter.tile}
