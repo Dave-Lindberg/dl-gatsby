@@ -1,8 +1,8 @@
 ---
   index:
   tilenum:
-  title: "Lebanon NH Chamber of Commerce Video Samples"
-  tile: "to come"
+  title: "Lebanon Area Chamber of Commerce Video Samples"
+  tile: "Lebanon Area Chamber of Commerce Video Samples"
   image: "../assets/images/court-house-background.jpg"
   message:
   messagex:
@@ -14,7 +14,7 @@
 <div>
 <p><strong><br />Hi, thanks for visiting.</strong> </p>
 
-<p>Below is a selection of promotional videos by Dave and Kent. We hope these pieces provide an overview of the story-telling and production quality that the Lebanon Area Chamber can expect from their new video series. If you have any questions or feedback, please don't hesitate to call Dave at [603 727-2050]<tel: 603-727-2050> or email [Dave@DaveLindberg.com]<mailto:Dave@DaveLindberg.com>. </p>
+<p>Below is a selection of promotional videos by Dave and Kent. We hope these pieces provide an overview of the story-telling and production quality that the Lebanon Area Chamber can expect from their new video series. If you have any questions or feedback, don't hesitate to call Dave at 603 727-2050 or send an email to Dave@DaveLindberg.com. </p>
 
 [//]: # 'Glens Falls Hospital:'
 
