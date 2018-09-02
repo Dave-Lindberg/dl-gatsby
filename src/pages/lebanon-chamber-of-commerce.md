@@ -8,13 +8,14 @@
   messagex:
   cta:
   testimonial: ""
-  pullquote: "\"Dave is a clear and calm marketing expert, highly skilled in asking the important questions and offering solutions that have revolutionized our ability for us to sell more of what we offer.\"<br /><span>— Lisa Vallejo Sorenson, <br />Communications Director, Upper Valley Aquatic Center</span><br /><br /><br /><br />\"Kent is a professional in every sense of the word. His talent, work ethic and ability to capture the heart of a message is complimented by his wonderful personality.\"<br /><span>— Katleen Russ, <br />Director of Development, American Heart Association</span>"
+  pullquote: "\"Dave is a clear and calm marketing expert, highly skilled in asking the important questions and offering solutions that have revolutionized our ability to sell more of what we offer.\"<br /><span>— Lisa Vallejo Sorenson, <br />Communications Director, Upper Valley Aquatic Center</span><br /><br /><br /><br />\"Kent is a professional in every sense of the word. His talent, work ethic and ability to capture the heart of a message is complemented by his wonderful personality.\"<br /><span>— Kathleen Russ, <br />Director of Development, American Heart Association</span>"
 ---
 
 <div>
 <p><strong><br />Hi, thanks for visiting.</strong> </p>
 
-<p>Below is a selection of promotional videos by Dave and Kent. We hope these pieces provide an overview of the story-telling and production quality that the Lebanon Area Chamber can expect from their new video series. If you have any questions or feedback, don't hesitate to call Dave at 603 727-2050 or send an email to Dave@DaveLindberg.com. </p>
+<p>Below is a sampling of promotional videos by Dave and Kent. We hope these pieces provide an overview of the story-telling and production quality that you can expect from your new video series.</p>
+<p>If you have any questions or feedback, don't hesitate to call Dave at 603 727-2050, or send an email to Dave@DaveLindberg.com. </p>
 
 [//]: # 'Glens Falls Hospital:'
 
