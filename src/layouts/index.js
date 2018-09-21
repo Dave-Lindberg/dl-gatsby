@@ -34,6 +34,10 @@ const TemplateWrapper = ({ children }) => (
           {
             name: 'viewport',
             content: 'width=device-width, initial-scale=1'
+          },
+          {
+            name: 'google-site-verification',
+            content: 'lsmiySJBdF4A-Lhh4kZyBTzC8x8jPR_Dr8NTKYVmPnM'
           }
         ]}
       />
