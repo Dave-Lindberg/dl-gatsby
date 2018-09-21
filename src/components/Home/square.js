@@ -47,13 +47,19 @@ class Square extends React.Component {
         />
 
         <ColorOverlay className="color-overlay">
-          <Closer className="closer">X</Closer>
-          <SquareH2>{this.props.title}</SquareH2>
+          <Closer className="closer" id={this.props.title}>
+            X
+          </Closer>
+          <SquareH2 className="title">{this.props.title}</SquareH2>
           <SquareMessage className="message">
             <p className="intro">{this.props.message}</p>
             <p>{this.props.messagex}</p>
           </SquareMessage>
-          <LinkButton className="LinkButton" href={this.props.link}>
+          <LinkButton
+            className="LinkButton"
+            id={this.props.title}
+            href={this.props.link}
+          >
             {this.props.cta}
           </LinkButton>
         </ColorOverlay>
