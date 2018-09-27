@@ -186,6 +186,7 @@ const ContactForm = () => (
         required
         type="textarea"
       />
+      <div data-netlify-recaptcha />
       <CtSend type="submit">Send it!</CtSend>
     </CtFieldset>
   </CtForm>
