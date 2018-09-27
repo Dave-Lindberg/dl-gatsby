@@ -38,6 +38,10 @@ const TemplateWrapper = ({ children }) => (
           {
             name: 'google-site-verification',
             content: 'lsmiySJBdF4A-Lhh4kZyBTzC8x8jPR_Dr8NTKYVmPnM'
+          },
+          {
+            name: 'script',
+            content: 'https://www.google.com/recaptcha/api.js'
           }
         ]}
       />

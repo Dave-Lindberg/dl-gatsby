@@ -186,7 +186,10 @@ const ContactForm = () => (
         required
         type="textarea"
       />
-      <div data-netlify-recaptcha />
+      <div
+        class="g-recaptcha"
+        data-sitekey="6Legf3IUAAAAAOiXSEf0FSrjd9v4HrXTkVkryBiu"
+      />
       <CtSend type="submit">Send it!</CtSend>
     </CtFieldset>
   </CtForm>
