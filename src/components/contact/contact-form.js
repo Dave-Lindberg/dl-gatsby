@@ -134,8 +134,10 @@ const ContactForm = () => (
   <CtForm
     name="contact"
     method="POST"
-    netlify-honeypot="bot-field"
+    data-netlify-honeypot="bot-field"
     data-netlify="true"
+    data-netlify-recaptcha
+    netlify
   >
     <div
       style={{
