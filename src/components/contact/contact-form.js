@@ -6,13 +6,15 @@ import LinkButton from '../link-button.js';
 const CtForm = styled.form`
   grid-column: 2 / 2;
   grid-row: 2 / 2;
+  display: grid !important;
 `;
 
 const CtFieldset = styled.fieldset`
   display: grid;
+  grid-template-columns: auto auto ;
   grid-template-rows: repeat(9, auto);
   @media (min-width: 768px) {
-    grid-template-columns: minmax(max-content, 200px) auto;
+    grid-template-columns: minmax(max-content, 200px) 1fr;
     grid-template-rows: repeat(5, auto);
   }
 `;
@@ -123,8 +125,10 @@ const CtinputMessage = CtInput.extend`
   }
 `;
 const CtSend = LinkButton.extend`
+
   grid-row: 10 / 10;
   margin: 1em 0.5em !important;
+  margin-left: 10px !important;
   @media (min-width: 768px) {
     grid-row: 6 / 6;
     grid-column: 1 / 3;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const LinkButton = styled.a`
+const LinkButton = styled.button`
   display: block;
   color: #ffffff !important;
   font-size: 1.2em;
