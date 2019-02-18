@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const LinkButton = styled.a`
+const SubmitButton = styled.button`
   display: block;
   color: #ffffff !important;
   font-size: 1.2em;
@@ -27,4 +27,4 @@ const LinkButton = styled.a`
   }
 `;
 
-export default LinkButton;
+export default SubmitButton;

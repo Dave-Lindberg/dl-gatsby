@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import LinkButton from '../link-button.js';
+import SubmitButton from '../submit-button.js';
 
 const CtForm = styled.form`
   grid-column: 2 / 2;
@@ -124,7 +125,7 @@ const CtinputMessage = CtInput.extend`
     height: 4em;
   }
 `;
-const CtSend = LinkButton.extend`
+const CtSend = SubmitButton.extend`
 
   grid-row: 10 / 10;
   margin: 1em 0.5em !important;
