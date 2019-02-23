@@ -50,8 +50,8 @@ const TemplateWrapper = ({ children }) => (
       <form name="contact" netlify netlify-honeypot="bot-field" hidden>
         <input type="text" name="name" />
         <input type="email" name="email" />
-        <input type="text" name="email" />
-        <textarea name="message"></textarea>
+        <input type="text" name="phone" />
+        <textarea name="user_message"></textarea>
       </form>
 
       <Header
