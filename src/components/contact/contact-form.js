@@ -141,7 +141,6 @@ const ContactForm = () => (
     method="POST"
     netlify-honeypot="bot-field"
     data-netlify="true"
-    data-netlify-recaptcha
     netlify
   >
     <div
@@ -192,10 +191,6 @@ const ContactForm = () => (
         placeholder="How can we help?"
         required
         type="textarea"
-      />
-      <div
-        class="g-recaptcha"
-        data-sitekey="6Legf3IUAAAAAOiXSEf0FSrjd9v4HrXTkVkryBiu"
       />
       <CtSend type="submit">Send it!</CtSend>
     </CtFieldset>
