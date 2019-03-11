@@ -55,12 +55,12 @@ const CtInstructions = styled.div`
   }
 `;
 
-const CtLabelName = CtLabel.extend`
+const CtLabelName = styled(CtLabel)`
   grid-row: 2 / 2;
   grid-column: 1 / 1;
 `;
 
-const CtinputName = CtInput.extend`
+const CtinputName = styled(CtInput)`
   grid-row: 3 / 3;
   grid-column: 1 / 1;
   @media (min-width: 768px) {
@@ -69,7 +69,7 @@ const CtinputName = CtInput.extend`
   }
 `;
 
-const CtLabelEmail = CtLabel.extend`
+const CtLabelEmail = styled(CtLabel)`
   grid-row: 4 / 4;
   grid-column: 1 / 1;
   @media (min-width: 768px) {
@@ -78,7 +78,7 @@ const CtLabelEmail = CtLabel.extend`
   }
 `;
 
-const CtinputEmail = CtInput.extend`
+const CtinputEmail = styled(CtInput)`
   grid-row: 5 / 5;
   grid-column: 1 / 1;
   @media (min-width: 768px) {
@@ -87,7 +87,7 @@ const CtinputEmail = CtInput.extend`
   }
 `;
 
-const CtLabelPhone = CtLabel.extend`
+const CtLabelPhone = styled(CtLabel)`
   grid-row: 6 / 6;
   grid-column: 1 / 1;
   @media (min-width: 768px) {
@@ -96,7 +96,7 @@ const CtLabelPhone = CtLabel.extend`
   }
 `;
 
-const CtinputPhone = CtInput.extend`
+const CtinputPhone = styled(CtInput)`
   grid-row: 7 / 7;
   grid-column: 1 / 1;
   @media (min-width: 768px) {
@@ -105,7 +105,7 @@ const CtinputPhone = CtInput.extend`
   }
 `;
 
-const CtLabelMessage = CtLabel.extend`
+const CtLabelMessage = styled(CtLabel)`
   grid-row: 8 / 8;
   grid-column: 1 / 1;
   @media (min-width: 768px) {
@@ -114,7 +114,7 @@ const CtLabelMessage = CtLabel.extend`
   }
 `;
 
-const CtinputMessage = CtInput.extend`
+const CtinputMessage = styled(CtInput)`
   grid-row: 9 / 9;
   grid-column: 1 / 1;
   height: 6em;
@@ -125,7 +125,7 @@ const CtinputMessage = CtInput.extend`
     height: 4em;
   }
 `;
-const CtSend = SubmitButton.extend`
+const CtSend = styled(SubmitButton)`
 
   grid-row: 10 / 10;
   margin: 1em 0.5em !important;
