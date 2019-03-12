@@ -13,6 +13,7 @@ const SquareMessage = styled.div`
   grid-row: 3 / 3;
   padding: 0 1rem;
   text-shadow: 0px 0px 4px #000;
+  z-index:10;
   @media (max-width: 767px) {
     font-size: 1em;
     line-height: 1.2em;

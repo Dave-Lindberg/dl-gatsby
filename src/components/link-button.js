@@ -15,6 +15,7 @@ const LinkButton = styled.a`
   align-item: center;
   align-self: start;
   justify-self: center;
+  z-index: 10;
   :hover {
     color: #999900 !important;
     border-color: #999900 !important;

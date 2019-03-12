@@ -21,7 +21,7 @@ class Square extends React.Component {
     scrollToComponent(this, {
       offset: -5000,
       align: 'top',
-      duration: 1500
+      duration: 1500,
     });
   }
 

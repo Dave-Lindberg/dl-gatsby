@@ -101,7 +101,7 @@ const StyledMain = styled.div`
   .active {
     grid-column: 1 / -1;
     grid-row: 1 / 6;
-    max-height: 100vh;
+    height: 100vh;
     background-size: cover;
     background-position: center center;
     transition: all 1s ease;
@@ -193,8 +193,8 @@ class Main extends React.Component {
     ));
     console.log(Squares);
     return (
-      <StyledMain className="main" id="marketing">
-        <Headline>
+      <StyledMain className="main" >
+        <Headline id="marketing">
           <h2>Growing Your Business Takes </h2>
           <h1>More Than a Web Site.</h1>
         </Headline>
@@ -224,7 +224,7 @@ class Main extends React.Component {
             Get more out of your website, and achieve your marketing goals. Call
             Dave at 603.727.2050 and learn how we can help.
           </p>
-          <h2>Want a Better Look?</h2>
+          <h2 id="design">Want a Better Look?</h2>
           {/*
             <p style={{ textAlign: 'center' }}>
               Feel free to browse this selection of projects covering brand

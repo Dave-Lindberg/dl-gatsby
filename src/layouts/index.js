@@ -49,7 +49,7 @@ const TemplateWrapper = ({ children }) => (
 
       <Header
         style={{
-          gridRow: 1
+          gridRow: 1 / 2
         }}
       />
       <div
@@ -58,7 +58,7 @@ const TemplateWrapper = ({ children }) => (
           margin: '0 auto',
           /* maxWidth: 960,*/
           padding: '0px 0rem 0rem',
-          gridRow: 2
+          gridRow: 2 / 3
         }}
       >
         {children}
