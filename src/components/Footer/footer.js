@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import { FaLinkedin, FaGithub } from 'react-icons/lib/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const FooterContent = styled.div`
   display: grid;

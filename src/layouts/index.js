@@ -61,7 +61,7 @@ const TemplateWrapper = ({ children }) => (
           gridRow: 2
         }}
       >
-        {children()}
+        {children}
       </div>
       <Footer
         className="Footer"
