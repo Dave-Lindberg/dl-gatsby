@@ -80,7 +80,7 @@ export default ({ data }) => {
         display: `grid`,
         gridTemplateColumns: `minmax(0,20%) minmax(10%,20%) minmax(40%,70%) minmax(10%,20%) minmax(0,20%)`,
         gridColumnGap: `30px`,
-        gridTemplateRows: `auto  auto auto repeat(2, 25vh)`
+        gridTemplateRows: `50vh auto auto repeat(2, 25vh)`
       }}
     >
       <Helmet title={data.markdownRemark.frontmatter.tile} />
@@ -88,8 +88,7 @@ export default ({ data }) => {
         sizes={data.markdownRemark.frontmatter.image.childImageSharp.sizes}
         style={{
           gridColumn: `1 / -1`,
-          gridRow: `1 / 3`,
-          justifySelf: `center`,
+          gridRow: `1 / 2`,
           zIndex: 10,
           objectFit: `cover`,
           marginBottom: '1rem'
