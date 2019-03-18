@@ -80,7 +80,6 @@ module.exports = {
       }
     },
     `gatsby-plugin-layout`,
-    'gatsby-plugin-react-next',
     'gatsby-plugin-sharp',
     'gatsby-transformer-json',
     'gatsby-transformer-remark',
