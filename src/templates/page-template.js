@@ -10,7 +10,6 @@ const PageGrid = styled.div`
     minmax(10%, 20%) minmax(0, 20%);
   gridcolumngap: 30px;
   gridtemplaterows: auto auto auto repeat(2, 25vh);
-
   .gatsby-image-outer-wrapper {
     grid-column: 1 / -1;
     grid-row: 1 / 2;
@@ -89,11 +88,7 @@ export default ({ data }) => {
         style={{
           gridColumn: `1 / -1`,
           gridRow: `1 / 2`,
-<<<<<<< HEAD
-          justifySelf: `center`,
-=======
->>>>>>> cc0b50898a007cb5d62047d26f4d543f53c1f715
-          zIndex: 10,
+          zIndex: `10`,
           objectFit: `cover`,
           marginBottom: '1rem'
         }}
@@ -103,7 +98,7 @@ export default ({ data }) => {
           display: `grid`,
           gridColumn: `2 / span 3`,
           gridRow: `1 / 2`,
-          zIndex: 100,
+          zIndex: `100`,
           alignSelf: `center`,
           color: `#ffffff`,
           fontSize: `1.5rem`,
