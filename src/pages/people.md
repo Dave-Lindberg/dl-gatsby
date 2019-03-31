@@ -1,5 +1,5 @@
 ---
-  index: 12
+  index: "12"
   tilenum: "12"
   tile: "Team Up"
   title: "Teamwork Makes the Dream Work."

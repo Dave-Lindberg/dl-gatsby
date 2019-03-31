@@ -1,5 +1,5 @@
 ---
-  index: 03
+  index: "03"
   tilenum: "03"
   title: "Tim Clue, Motivational Speaker, Takes the Lead"
   tile: "Generate Leads"

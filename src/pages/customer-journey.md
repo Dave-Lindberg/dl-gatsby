@@ -1,5 +1,5 @@
 ---
-  index: 10
+  index: "10"
   tilenum: "10"
   tile: "Move People"
   title: "Map Your Customers’ Journey and Discover a Way Forward"

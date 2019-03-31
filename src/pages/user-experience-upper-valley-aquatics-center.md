@@ -1,5 +1,5 @@
 ---
-  index: 06
+  index: "06"
   tilenum: "06"
   title: "A Focus on Users Helps the Upper Valley Aquatics Center Connect to Its Core"
   tile: "Help Users"

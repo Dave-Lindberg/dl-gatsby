@@ -63,6 +63,7 @@ module.exports = {
             },
           },
         ],
+        plugins: [`gatsby-remark-responsive-iframe`]
       },
     },
 
@@ -71,13 +72,6 @@ module.exports = {
       options: {
         // Add any options here
       },
-    },
-
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [`gatsby-remark-responsive-iframe`]
-      }
     },
     `gatsby-plugin-layout`,
     'gatsby-plugin-sharp',

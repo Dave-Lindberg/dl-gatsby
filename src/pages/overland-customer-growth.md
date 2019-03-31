@@ -1,5 +1,5 @@
 ---
-  index: 09
+  index: "09"
   tilenum: "09"
   tile: "Inspire Customers"
   title: "How Changing Your Goals Changes Your Customers"

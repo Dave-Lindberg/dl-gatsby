@@ -307,7 +307,7 @@ export default Main;
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark(sort: { fields: [frontmatter___index], order: ASC }) {
+    allMarkdownRemark {
       edges {
         node {
           fields {

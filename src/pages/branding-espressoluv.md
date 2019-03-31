@@ -1,5 +1,5 @@
 ---
-  index: 01
+  index: "01"
   tilenum: "01"
   title: "Understanding the Market, Hand-Crafting the Brand."
   tile: "Build the Brand"

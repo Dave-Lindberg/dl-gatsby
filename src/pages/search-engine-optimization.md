@@ -1,5 +1,5 @@
 ---
-  index: 11
+  index: "11"
   tilenum: "11"
   tile: "Attract Visitors"
   title: "SEO for Everybody (and Vice Versa)"

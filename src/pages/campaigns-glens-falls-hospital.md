@@ -1,5 +1,5 @@
 ---
-  index: 04
+  index: "04"
   tilenum: "04"
   title: "Glens Falls Hospital: Managing Change in Community Healthcare"
   tile: "Craft Campaigns"
