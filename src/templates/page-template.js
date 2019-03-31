@@ -88,7 +88,7 @@ export default ({ data }) => {
         sizes={data.markdownRemark.frontmatter.image.childImageSharp.sizes}
         style={{
           gridColumn: `1 / -1`,
-          gridRow: `1 / 3`,
+          gridRow: `1 / 2`,
           justifySelf: `center`,
           zIndex: 10,
           objectFit: `cover`,
