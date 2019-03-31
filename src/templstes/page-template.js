@@ -89,6 +89,10 @@ export default ({ data }) => {
         style={{
           gridColumn: `1 / -1`,
           gridRow: `1 / 2`,
+<<<<<<< HEAD
+          justifySelf: `center`,
+=======
+>>>>>>> cc0b50898a007cb5d62047d26f4d543f53c1f715
           zIndex: 10,
           objectFit: `cover`,
           marginBottom: '1rem'
