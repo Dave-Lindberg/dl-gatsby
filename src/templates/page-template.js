@@ -128,8 +128,8 @@ export const query = graphql`
         tile
         image {
           childImageSharp {
-            sizes(maxWidth:1200) {
-              ...GatsbyImageSharpSizes
+            fluid {
+              ...GatsbyImageSharpFluid
             }
           }
         }
