@@ -1,10 +1,11 @@
 ---
+  contenttype: "project"
   index: "06"
   tilenum: "06"
   title: "A Focus on Users Helps the Upper Valley Aquatics Center Connect to Its Core"
   tile: "Help Users"
   date: "2018-01-15"
-  image: "../assets/images/poolside.jpg"
+  image: "poolside.jpg"
   message: "At the core of our work, you’ll find user-centered design."
   messagex: "Results happen when you help people achieve their goals."
   cta: "Case Study: Upper Valley Aquatic Center"

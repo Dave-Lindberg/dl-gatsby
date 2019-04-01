@@ -1,9 +1,10 @@
 ---
+  contenttype: "project"
   index: "03"
   tilenum: "03"
   title: "Tim Clue, Motivational Speaker, Takes the Lead"
   tile: "Generate Leads"
-  image: "../assets/images/timclue.jpg"
+  image: "timclue.jpg"
   message: "Connecting with prospects at the right point in their purchase process."
   messagex: "Awareness leads to interest; interest leads to action."
   cta: "Case Study: Tim Clue"

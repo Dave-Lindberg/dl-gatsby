@@ -1,10 +1,11 @@
 ---
+  contenttype: "project"
   index: "08"
   tilenum: "08"
   title: "Marketing is a One-to-One Experience."
   tile: "Engage Prospects"
   date: "2018-01-15"
-  image: "../assets/images/firepit.jpg"
+  image: "firepit.jpg"
   message: "\"How does this fit within my life?\""
   messagex: "Let the story unfold."
   cta: "Case Study: Ayurvedik by shaninrenee"

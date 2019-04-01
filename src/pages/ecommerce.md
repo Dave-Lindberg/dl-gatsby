@@ -1,10 +1,11 @@
 ---
+  contenttype: "project"
   index: "05"
   tilenum: "05"
   title: "Ecommerce requires balance. And that’s our strength."
   tile: "Grow Sales"
   date: "2018-01-15"
-  image: "../assets/images/seedlings.jpg"
+  image: "seedlings.jpg"
   message: "Deep experience in WooCommerce, BigCommerce and Shopify."
   messagex: "We build sites that sell."
   cta: "Ecommerce: Planning for Success"

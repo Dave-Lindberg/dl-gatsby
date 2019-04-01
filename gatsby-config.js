@@ -1,3 +1,5 @@
+const path = require(`path`)
+
 module.exports = {
   siteMetadata: {
     title: 'Dave Lindberg Marketing &amp; Design'
@@ -11,28 +13,27 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages/`
+        path: path.join(__dirname,`src`, `pages`),
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
-        path: `${__dirname}/src/data/`
+        path: path.join(__dirname,`src`,`data`),
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/assets/images/`
+        path: path.join(__dirname,`src`,`assets`,`images`)
       },
     },
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
         id: 'GTM-TPK4DN',
-
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
         includeInDevelopment: false
@@ -53,32 +54,36 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-embed-video',
+            resolve: `gatsby-remark-images`,
             options: {
-              width: 800,
-              ratio: 1.77, // Optional: Defaults to 16/9 = 1.77
-              height: 400, // Optional: Overrides optional.ratio
-              related: false, //Optional: Will remove related videos from the end of an embedded YouTube video.
-              noIframeBorder: true //Optional: Disable insertion of <style> border: 0
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              maxWidth: 1200,
             },
           },
         ],
-        plugins: [`gatsby-remark-responsive-iframe`]
       },
     },
-
     {
       resolve: `gatsby-plugin-styled-components`,
       options: {
         // Add any options here
       },
     },
-    `gatsby-plugin-layout`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-1350255-1",
+      },
+    },
+    'gatsby-plugin-layout',
     'gatsby-plugin-sharp',
     'gatsby-transformer-json',
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
     'gatsby-transformer-yaml',
-    `gatsby-plugin-netlify` // make sure to put last in the array
+    'gatsby-plugin-netlify' // make sure to put last in the array
   ]
 };

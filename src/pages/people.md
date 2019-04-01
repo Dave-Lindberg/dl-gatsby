@@ -1,10 +1,11 @@
 ---
+  contenttype: "project"
   index: "12"
   tilenum: "12"
   tile: "Team Up"
   title: "Teamwork Makes the Dream Work."
   date: "2018-01-16"
-  image: "../assets/images/rally.png"
+  image: "rally.png"
   message: "Let's Work Together."
   messagex: ""
   cta: "Scale it up."

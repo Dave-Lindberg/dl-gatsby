@@ -1,10 +1,11 @@
 ---
+  contenttype: "project"
   index: "02"
   tilenum: "02"
   title: "Creating Happy Customers? You Can Plan on It."
   tile: "Improve ROI"
   date: "2018-01-15"
-  image: "../assets/images/meshpipe.jpg"
+  image: "meshpipe.jpg"
   message: "A solid marketing plan delivers a meaningful message to the right people."
   messagex: "The result? A profitable return on investment."
   cta: "Plan for success"

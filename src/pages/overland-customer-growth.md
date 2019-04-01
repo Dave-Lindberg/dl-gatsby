@@ -1,10 +1,11 @@
 ---
+  contenttype: "project"
   index: "09"
   tilenum: "09"
   tile: "Inspire Customers"
   title: "How Changing Your Goals Changes Your Customers"
   date: "2018-01-15"
-  image: "../assets/images/overland.jpg"
+  image: "overland.jpg"
   message: "Changing your expectations"
   messagex: "can change everything."
   cta: "Case Study: Overland Sheepskin"

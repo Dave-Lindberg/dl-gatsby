@@ -1,10 +1,11 @@
 ---
+  contenttype: "project"
   index: "11"
   tilenum: "11"
   tile: "Attract Visitors"
   title: "SEO for Everybody (and Vice Versa)"
   date: "2018-01-16"
-  image: "../assets/images/fishing-net.jpg"
+  image: "fishing-net.jpg"
   message: "SEO is everyone's job."
   cta: "Modern SEO"
   pullquote: “Starting the process now can produce verifiable results quickly.”

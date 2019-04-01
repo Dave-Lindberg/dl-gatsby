@@ -1,10 +1,11 @@
 ---
+  contenttype: "project"
   index: "10"
   tilenum: "10"
   tile: "Move People"
   title: "Map Your Customers’ Journey and Discover a Way Forward"
   date: "2018-01-15"
-  image: "../assets/images/stoplight.jpg"
+  image: "stoplight.jpg"
   message: "The journey from ‘potential prospect’ to ‘engaged customer’"
   cta: "Read about the Customer Journey"
   pullquote: "At each stage, the consumer displays behavior that’s specific to their current short-term goals."

@@ -36,7 +36,7 @@ class Square extends React.Component {
         link={this.props.link}
       >
         <Img
-          sizes={this.props.background.childImageSharp.sizes}
+          fluid={this.props.background.childImageSharp.fluid}
           style={{
             gridColumn: '1 / -1',
             gridRow: '1 / -1',

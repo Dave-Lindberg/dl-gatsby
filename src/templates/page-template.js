@@ -84,7 +84,7 @@ export default ({ data }) => {
     >
       <Helmet title={data.markdownRemark.frontmatter.tile} />
       <Img
-        sizes={data.markdownRemark.frontmatter.image.childImageSharp.sizes}
+        fluid={data.markdownRemark.frontmatter.image.childImageSharp.fluid}
         style={{
           gridColumn: `1 / -1`,
           gridRow: `1 / 2`,
@@ -128,7 +128,7 @@ export const query = graphql`
         tile
         image {
           childImageSharp {
-            sizes(maxWidth: 1240) {
+            sizes(maxWidth:1200) {
               ...GatsbyImageSharpSizes
             }
           }

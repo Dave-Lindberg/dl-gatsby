@@ -1,10 +1,11 @@
 ---
+  contenttype: "project"
   index: "07"
   tilenum: "07"
   title: "Gain a Better View of Your Users."
   tile: "See Trends"
   date: "2018-01-15"
-  image: "../assets/images/binoculars.jpg"
+  image: "binoculars.jpg"
   message: "Every user’s experience contributes directly to your bottom line. "
   messagex: "Our extensive experience contributes directly to theirs."
   cta: "See the difference"

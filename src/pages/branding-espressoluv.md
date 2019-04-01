@@ -1,10 +1,11 @@
 ---
+  contenttype: "project"
   index: "01"
   tilenum: "01"
   title: "Understanding the Market, Hand-Crafting the Brand."
   tile: "Build the Brand"
   date: "2018-01-15"
-  image: "../assets/images/espressoluv.jpg"
+  image: "espressoluv.jpg"
   message: "They frame the conversation, adding context and meaning."
   messagex: " A coherent brand delivers tangible value."
   cta: "Hand-Crafting the Brand"

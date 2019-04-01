@@ -307,7 +307,7 @@ export default Main;
 
 export const query = graphql`
   query IndexQuery {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___index], order: ASC }) {
       edges {
         node {
           fields {
@@ -325,12 +325,12 @@ export const query = graphql`
             link
             image {
               childImageSharp {
-                sizes(maxWidth: 1240) {
-                  ...GatsbyImageSharpSizes
+                fluid {
+                  ...GatsbyImageSharpFluid
                 }
               }
             }
-          }
+            }
           id
         }
       }
