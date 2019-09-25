@@ -1,6 +1,5 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 

@@ -5,7 +5,7 @@
   tile: "Team Up"
   title: "Teamwork Makes the Dream Work."
   date: "2018-01-16"
-  image: "rally.png"
+  image: "rally.jpg"
   message: "Let's Work Together."
   messagex: ""
   cta: "Scale it up."
