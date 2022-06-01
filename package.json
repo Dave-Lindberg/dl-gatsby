@@ -40,7 +40,7 @@
     "react-scroll-to-component": "^1.0.2",
     "react-typography": "^0.16.19",
     "save": "^2.4.0",
-    "sharp": "^0.21.3",
+    "sharp": "^0.30.5",
     "styled-components": "^4.4.0",
     "tween": "^0.9.0",
     "typography": "^0.16.19",
